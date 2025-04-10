@@ -89,7 +89,7 @@ function setupEventListeners() {
 
     // Updated: Redirect to Teacher Panel URL
     document.getElementById("loginAsTeacherBtn").addEventListener("click", () => {
-        window.location.href = "https://akhil10106.github.io/TMC-TeacherPanel/";
+        window.location.href = "https://akhil10106.github.io/TMC-Teacher-Panel/";
     });
 
     document.getElementById("loginAsStudentBtn").addEventListener("click", () => {
