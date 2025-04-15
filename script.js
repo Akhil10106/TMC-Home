@@ -1,4 +1,4 @@
-// script.js
+q// script.js
 
 import * as Auth from "./auth.js";
 import * as DataOps from "./dataOperations.js";
@@ -89,11 +89,11 @@ function setupEventListeners() {
 
     // Updated: Redirect to Teacher Panel URL
     document.getElementById("loginAsTeacherBtn").addEventListener("click", () => {
-        window.location.href = "https://akhil10106.github.io/TMC-Teacher-Panel/";
+        window.location.href = "#";
     });
 
     document.getElementById("loginAsStudentBtn").addEventListener("click", () => {
-        window.location.href = "https://lakshyauniyal.github.io/tmc/login.html";
+        window.location.href = "https://github.com/lakshyauniyal/Student-Panel";
     });
 
     // Login Event Listener (Admin only)
